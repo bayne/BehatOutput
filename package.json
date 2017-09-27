@@ -1,0 +1,19 @@
+{
+  "name": "behat-output",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "inline-source": "^5.2.4",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "inline": "node inline.js > output.html",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
